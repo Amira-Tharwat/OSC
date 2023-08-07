@@ -1,0 +1,83 @@
+step1
+
+mkdir "amira tharwat"
+cd "amira tharwat"
+
+ 
+
+step2
+
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+ls
+
+
+
+step3
+
+cd ..
+touch .hidden_file
+ls
+
+
+
+step4
+
+cd Documents
+nano file1.txt
+cat file1.txt
+
+
+
+step5 
+
+cd .
+
+
+
+step6
+
+mkdir -
+cd ..
+cd Docunents/-
+
+
+
+step7
+
+cd ../..
+cp -r Documents 'my_documents'
+ls
+cd my_documents
+ls
+
+
+
+step8
+
+cd ..
+ls -a
+cat .hidden_file
+
+
+
+step9
+
+cd Documents
+mv file2.txt "amira tharwat"
+mv file3.txt "amira tharwat"
+ls
+cd ..
+ls
+
+step10
+
+cd ~
+rm -r "amira tharwat"
+ls
+
+
+
+
+
