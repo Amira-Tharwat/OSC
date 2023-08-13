@@ -1,0 +1,36 @@
+ls 
+cd Downloads
+ls
+unzip Update-Task-02.zip
+ls
+cd Update-Task-02.zip
+ls
+cat README.TXT
+la -a
+tar -xf .level-1.tar
+ls -a
+cd .level-1
+ls
+cat README.txt
+mv level-2 level-2.tar
+ls
+tar -xf level-2.tar
+ls
+cd level-2
+ls
+cat README.txt
+find -name level-3
+cd ./gBT5u0vLT5
+ls
+mv level-3 level-3.tar
+ls
+tar -xf level-3.tar
+ls
+cd level-3
+ls
+cat README.txt
+cat X6lkChFKsj
+find -size 73c
+cd ./m7lRDpRTUJ
+ls
+cat xVMvVOKNW5
