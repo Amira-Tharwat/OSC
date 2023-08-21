@@ -1,0 +1,47 @@
+step 1:
+sudo useradd osc
+sudo passwd osc(set the password)
+sudo groupadd osc_group
+sudo usermod -a -G osc_group osc
+sudo visudo (add (osc ALL=(ALL:ALL) ALL)and save it )
+su - osc (and set the password)
+
+
+
+step 2:
+sudo mkdir permission_practice 
+ls
+cd permission_practice
+sudo touch public_file.txt
+ls
+sudo chmod a+rw public_file.txt
+sudo touch private_file.txt
+sudo chmod u+rw private_file.txt
+sudo touch executable_script.sh
+sudo chmod u+rwx executable_scriot.sh
+sudo chmod g+rw executable_script.sh
+ls
+ls -l
+
+
+
+step 3:
+sudo chown amira private_file.txt
+sudo chgrp osc_group private_file.txt
+
+
+
+step 4:
+sleep 1000 &
+kill 6844
+(install vim)
+vim (ctrl+z to stop it)
+killall -9 vim 
+jobs 
+
+
+
+step 5:
+sudo apt update
+sudo apt install neofetch
+sudo apt remove neofetch 
